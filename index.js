@@ -1,3 +1,10 @@
+/**
+ * Compare arrays
+ *
+ * @param  {Array} arr1
+ * @param  {Array} arr2
+ * @return {Boolean} - Arrays are equals
+ */
 
 module.exports = function equal(arr1, arr2) {
   var length = arr1.length
