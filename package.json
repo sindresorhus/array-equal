@@ -1,13 +1,38 @@
 {
-  "name": "array-equal",
-  "description": "check if two arrays are equal",
-  "version": "1.0.2",
-  "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com",
-    "twitter": "https://twitter.com/jongleberry"
-  },
-  "license": "MIT",
-  "repository": "sindresorhus/array-equal"
+	"name": "array-equal",
+	"version": "1.0.0",
+	"description": "Check if two arrays are equal",
+	"license": "MIT",
+	"repository": "sindresorhus/array-equal",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"array",
+		"equal",
+		"equals",
+		"same",
+		"identical",
+		"equality",
+		"compare",
+		"validate"
+	],
+	"devDependencies": {
+		"ava": "^5.3.1",
+		"xo": "^0.56.0"
+	}
 }
