@@ -1,9 +1,9 @@
 export default function arrayEqual(array1, array2) {
-	const {length} = array1;
-
 	if (array1 === array2) {
 		return true;
 	}
+
+	const { length } = array1;
 
 	if (length !== array2.length) {
 		return false;
