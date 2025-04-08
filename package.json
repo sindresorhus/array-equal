@@ -12,7 +12,7 @@
 	},
 	"sideEffects": false,
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -32,7 +32,7 @@
 		"validate"
 	],
 	"devDependencies": {
-		"ava": "^5.3.1",
-		"xo": "^0.56.0"
+		"ava": "^6.2.0",
+		"xo": "^0.60.0"
 	}
 }
